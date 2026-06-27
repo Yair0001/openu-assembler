@@ -1,0 +1,2 @@
+assembler: preAssembler.h preAssembler.c utils.h utils.c main.c constants.h firstpass.h firstpass.c secondpass.c secondpass.h
+	gcc ./preAssembler.c ./utils.c ./constants.h ./main.c ./firstpass.c ./secondpass.c -o assembler -Wall -ansi -pedantic -g
